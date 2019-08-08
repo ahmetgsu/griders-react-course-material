@@ -1,0 +1,26 @@
+{
+  "streams": [
+    {
+      "title": "my streams",
+      "description": "this is my first stream",
+      "id": 1
+    },
+    {
+      "title": "4th stream",
+      "description": "still test",
+      "userId": "110841191487109395845",
+      "id": 4
+    },
+    {
+      "title": "PATCH request test",
+      "description": "this change was made by PATCH request",
+      "userId": "110841191487109395845",
+      "id": 5
+    },
+    {
+      "title": "Me streaming component reuse!",
+      "description": "the streams is about the refactoring",
+      "id": 6
+    }
+  ]
+}
