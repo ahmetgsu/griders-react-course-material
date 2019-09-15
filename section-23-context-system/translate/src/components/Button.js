@@ -6,15 +6,15 @@ class Button extends Component {
   // Getting data by using "CONSUMER"
   // When using Consumer, we dont need to contextType
 
-  renderSubmit = value => {
-    return value === "english" ? "Submit" : "Voorleggen";
+  renderSubmit = language => {
+    return language === "english" ? "Submit" : "Voorleggen";
   };
 
   renderButton = color => {
     return (
       <button className={`ui button ${color}`}>
         <LanguageContext.Consumer>
-          {value => this.renderSubmit(value)}
+          {({ language }) => this.renderSubmit(language)}
         </LanguageContext.Consumer>
       </button>
     );
